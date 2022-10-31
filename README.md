@@ -30,7 +30,19 @@ src
 ├── App.css
 └── index.js
 
-## 開発時に実行
+## プロジェクトのセットアップ
+
+1. パッケージのインストール  
+```sh
+$ npm i
+```
+
+2. Reactアプリのインストール
+```sh
+$ npx create-react-app react-todo --use-npm
+```
+
+### 開発時に実行
 
 ```shell
 npm start
