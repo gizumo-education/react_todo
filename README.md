@@ -10,22 +10,22 @@
 ```
 .
 ├── node_modules
-│── publuc
-│   ├── index.html
-│   └── robots.txt
+├── public
+│     ├── index.html
+│     └── robots.txt
 └── src
       ├── App.css
       ├── App.js
-      ├── index.js
-      └── sampleApp
-          ├── components
+      ├── index.js // 全体に適用したいパッケージやCSS、インポートしたコンポーネントを読み込む
+      └── sampleApp // 完成品がはいったディレクトリ
+          ├── components // ページを構成する部品のコンポーネントを格納
           │   ├── DogImage
           │   │   └── index.js
           │   ├── TodoForm
           │   │   └── index.js
           │   └── TodoItem
           │       └── index.js
-          └── pages
+          └── pages // ページを構成するコンポーネントを格納
               └── App
                   ├── index.js
                   └── style.css
