@@ -7,28 +7,29 @@
 - MACOS Catalina
 
 ## ディレクトリ構造
-
-src
+```
+.
 ├── node_modules
 │── publuc
 │   ├── index.html
 │   └── robots.txt
 └── src
-│    └── sampleApp
-│      ├── pages
-│      │   └── App
-│      │       └── index.js
-│      │       └── style.css
-│      └── components
-│          ├── DogImage
-│          │   └── index.js
-│          ├── TodoForm
-│          │   └── index.js
-│          └── TodoItem
-│              └── index.js
-├── App.js
-├── App.css
-└── index.js
+      ├── App.css
+      ├── App.js
+      ├── index.js
+      └── sampleApp
+          ├── components
+          │   ├── DogImage
+          │   │   └── index.js
+          │   ├── TodoForm
+          │   │   └── index.js
+          │   └── TodoItem
+          │       └── index.js
+          └── pages
+              └── App
+                  ├── index.js
+                  └── style.css
+```
 
 ## プロジェクトのセットアップ
 
